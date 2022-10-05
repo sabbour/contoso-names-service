@@ -45,10 +45,10 @@ dlldata.c
 project.lock.json
 project.fragment.lock.json
 artifacts/
-**/Properties/launchSettings.json
+#**/Properties/launchSettings.json
 
 # VS Code
-.vscode/
+#.vscode/
 
 *_i.c
 *_p.c
