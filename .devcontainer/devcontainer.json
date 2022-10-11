@@ -21,7 +21,8 @@
 			"extensions": [
 				"ms-dotnettools.csharp",
 				"mindaro.mindaro",
-				"ms-vscode.azure-account"
+				"ms-vscode.azure-account",
+				"ms-kubernetes-tools.vscode-aks-tools"
 			]
 		}
 	},
