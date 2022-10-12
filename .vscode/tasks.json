@@ -47,7 +47,8 @@
             ],
             "targetCluster": "contosobipfh",
             "targetNamespace": "contoso-names",
-            "useKubernetesServiceEnvironmentVariables": false
+            "useKubernetesServiceEnvironmentVariables": false,
+            "isolateAs": "vscode-c12d"
         },
         {
             "label": "bridge-to-kubernetes.compound",
