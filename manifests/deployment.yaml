@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: contoso-names-service
+  labels:
+    app: contoso-names-service
+  namespace: contoso-names
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: contoso-names-service
+  template:
+    metadata:
+      labels:
+        app: contoso-names-service
+    spec:
+      containers:
+        - name: contoso-names-service
+          image: contosobipfh.azurecr.io/contoso-names-service:latest
+          ports:
+            - containerPort: 80
