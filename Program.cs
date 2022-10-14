@@ -28,7 +28,7 @@ app.MapGet("/names", () =>
     var nounId = Random.Shared.Next(nouns.Length);
     var adjective = adjectives[adjectiveId];
     var noun = nouns[Random.Shared.Next(nounId)];
-    var result = new Name($"{adjectiveId}-{nounId}", $"{adjective} {adjective}".ToLower());
+    var result = new Name($"{adjectiveId}-{nounId}", $"{adjective} {noun}".ToLower());
     return Results.Json(result);
 })
 .WithName("GetNames");
