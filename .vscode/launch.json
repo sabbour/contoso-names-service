@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/contoso-topics-service/bin/Debug/net6.0/contoso-names-service.dll",
+            "program": "${workspaceFolder}/bin/Debug/net6.0/contoso-names-service.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/contoso-topics-service",
+            "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
