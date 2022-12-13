@@ -5,10 +5,10 @@ name: contoso-names-service
             - fixed-the-bug
     workflow_dispatch: {}
 env:
-    ACR_RESOURCE_GROUP: contosonames-rg
-    AZURE_CONTAINER_REGISTRY: contoso60it7
-    CLUSTER_NAME: contoso60it7
-    CLUSTER_RESOURCE_GROUP: contosonames-rg
+    ACR_RESOURCE_GROUP: contosozt41e-rg
+    AZURE_CONTAINER_REGISTRY: contosozt41e
+    CLUSTER_NAME: contosozt41e
+    CLUSTER_RESOURCE_GROUP: contosozt41e-rg
     CONTAINER_NAME: contoso-names-service
     DEPLOYMENT_MANIFEST_PATH: |
         ./manifests/deployment.yaml
