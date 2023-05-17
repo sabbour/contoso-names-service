@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: contoso-names-backend
+  namespace: contoso
+spec:
+  type: LoadBalancer
+  selector:
+    app: contoso-names-backend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
